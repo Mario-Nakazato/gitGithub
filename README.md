@@ -295,6 +295,11 @@ ssh-keygen
 
 - Aceitar as alterações do repositorio enviado pelo colaborador
 
+### Usei para parar de verificar alteração no arquivo .env
+
+- Para de verificar alteração - git update-index --assume-unchanged .env
+- Votla a verificar alteração - git update-index --no-assume-unchanged .env
+
 ### Ajuda Github
 
 ![](AjudaCriarRepositorioGithub.png)
